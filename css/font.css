@@ -1,0 +1,160 @@
+* {
+  word-break: keep-all;
+}
+
+/* color */
+.colorPurple {
+  color: #6e00ff;
+}
+
+.colorWhite {
+  color: white;
+}
+
+/* size, weight */
+.bold60 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.06em;
+}
+
+.regular60 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.06em;
+}
+
+.bold53 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 53px;
+  font-weight: 700;
+}
+
+.bold38,
+section:nth-of-type(1) ol li h3 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+.bold32,
+section:nth-of-type(6) li h3 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 47px;
+}
+
+.bold20,
+section:nth-of-type(1) ol li strong,
+section:nth-of-type(2) ul .card h3,
+section:nth-of-type(3) li h3,
+section:nth-of-type(6) li p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.medium20,
+section:nth-of-type(4) figcaption li strong {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.regular18,
+section:nth-of-type(6) form p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.regular17 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.medium16 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.regular16,
+section:nth-of-type(4) figcaption li p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.regular15,
+section:nth-of-type(1) ol li a,
+section:nth-of-type(6) li i {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.medium14 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.regular14,
+section:nth-of-type(1) ol li p,
+section:nth-of-type(2) ul .card p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* order */
+section:nth-of-type(3) li div span:nth-child(2):after {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 1080px) {
+  .bold60 {
+    font-size: 60px;
+  }
+
+  .regular60 {
+    font-size: 60px;
+    line-height: 86px;
+  }
+}
+
+@media screen and (max-width: 1079px) and (min-width: 786px) {
+  .bold60 {
+    font-size: 55px;
+  }
+
+  .regular60 {
+    font-size: 55px;
+    line-height: 80px;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .bold60 {
+    font-size: 35px;
+  }
+
+  .regular60 {
+    font-size: 35px;
+    line-height: 51px;
+  }
+}
