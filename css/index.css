@@ -76,10 +76,6 @@ nav {
   padding: 0 60px;
 }
 
-nav input {
-  /* display: none; */
-}
-
 nav h1 strong {
   color: #6e00ff;
 }
@@ -318,7 +314,7 @@ section:nth-of-type(2) ul .card p:not(:nth-last-child(1)) {
 }
 
 .overBox02 {
-  width: 91vw;
+  width: 85vw;
   background-color: white;
   border-radius: 110px 0 0 110px;
   margin-left: auto;
@@ -556,10 +552,9 @@ section:nth-of-type(5) {
 section:nth-of-type(5) div {
   padding: 70px 15px 0 75px;
   box-sizing: border-box;
-}
-
-section:nth-of-type(5) div {
   color: #fff;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 section:nth-of-type(5) h2 {
@@ -591,7 +586,7 @@ section:nth-of-type(5) a {
 }
 
 section:nth-of-type(6) {
-  width: 93vw;
+  width: 85vw;
   background-color: white;
   box-shadow: 0 0 6px rgba(31, 0, 72, 0.3);
   border-radius: 0 67px 67px 0;
@@ -612,6 +607,17 @@ section:nth-of-type(6) h2 {
 
 section:nth-of-type(6) div > p {
   margin-bottom: 50px;
+}
+
+section:nth-of-type(6) div > a {
+  display: inline-block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 55px;
+  color: white;
+  background-color: #6e00ff;
+  border-radius: 9999px;
+  width: 120px;
 }
 
 section:nth-of-type(6) li {
@@ -735,18 +741,20 @@ footer div h1 {
   }
 
   section:nth-of-type(1) ol {
-    width: 89.21%;
+    width: 80%;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    max-width: 1070px;
   }
 
   section:nth-of-type(1) ol li {
     width: 31%;
+    max-width: 330px;
   }
 
   .overBox01 {
-    width: 93vw;
+    width: 85vw;
   }
 
   .overBox01 dd {
@@ -792,6 +800,7 @@ footer div h1 {
     margin: 0 auto;
     justify-content: space-between;
     transform: translateY(30px);
+    max-width: 1070px;
   }
 
   section:nth-of-type(6) li:nth-child(2) {
@@ -800,6 +809,7 @@ footer div h1 {
 
   section:nth-of-type(6) li {
     width: 32%;
+    max-width: 330px;
   }
 
   footer {
@@ -947,8 +957,13 @@ footer div h1 {
     width: 60%;
   }
 
+  section:nth-of-type(2) ul {
+    justify-content: flex-end;
+  }
+
   section:nth-of-type(2) ul .card {
     width: 100%;
+    max-width: 600px;
   }
 
   section:nth-of-type(2) ul li > div {
@@ -1001,10 +1016,12 @@ footer div h1 {
 
   section:nth-of-type(6) li:nth-child(2) {
     margin: 0 auto;
+    transform: translateY(-20px);
   }
 
   section:nth-of-type(6) li:nth-child(3) {
     margin-left: auto;
+    transform: translateY(-40px);
   }
 
   footer {
@@ -1145,7 +1162,7 @@ footer div h1 {
   section:nth-of-type(1) ol {
     width: 270px;
     top: 0;
-    left: 30px;
+    left: 7%;
   }
 
   section:nth-of-type(1) ol li {
@@ -1179,6 +1196,12 @@ footer div h1 {
 
   section:nth-of-type(3) ul li {
     width: 100%;
+  }
+
+  section:nth-of-type(2) .card > div div {
+    max-width: 300px;
+    width: 100%;
+    margin-left: auto;
   }
 
   section:nth-of-type(3) .stack80 {
@@ -1255,14 +1278,17 @@ footer div h1 {
     top: 85%;
     transform: translateX(-50%);
     width: 90%;
+    max-width: 300px;
   }
 
   section:nth-of-type(6) li:nth-child(2) {
     margin: 0 auto;
+    transform: translateY(-20px);
   }
 
   section:nth-of-type(6) li:nth-child(3) {
     margin-left: auto;
+    transform: translateY(-40px);
   }
 
   footer {
