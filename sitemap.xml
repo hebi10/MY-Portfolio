@@ -1,7 +1,7 @@
    
     ---
     layout: null
-    sitemap:
+    sitemap: https://hebi10.github.io/MY-Portfolio/
       exclude: 'yes'
     ---
     <?xml version="1.0" encoding="UTF-8"?>
