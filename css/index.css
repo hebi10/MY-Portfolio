@@ -285,15 +285,18 @@ section:nth-of-type(2) ul .card:nth-child(2) {
   background: url("../images/travel.png") no-repeat top / cover;
 }
 section:nth-of-type(2) ul .card:nth-child(3) {
-  background: url("../images/movie-review.JPG") no-repeat top / cover;
+  background: url("../images/dice-game.JPG") no-repeat top / cover;
 }
 section:nth-of-type(2) ul .card:nth-child(4) {
-  background: url("../images/mini-notepad.JPG") no-repeat top / cover;
+  background: url("../images/movie-review.JPG") no-repeat top / cover;
 }
 section:nth-of-type(2) ul .card:nth-child(5) {
-  background: url("../images/aplb.JPG") no-repeat top / cover;
+  background: url("../images/mini-notepad.JPG") no-repeat top / cover;
 }
 section:nth-of-type(2) ul .card:nth-child(6) {
+  background: url("../images/aplb.JPG") no-repeat top / cover;
+}
+section:nth-of-type(2) ul .card:nth-child(7) {
   background: url("../images/nutridin.JPG") no-repeat top / cover;
 }
 
