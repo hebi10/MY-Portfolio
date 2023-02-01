@@ -150,6 +150,19 @@ section:nth-of-type(1) {
   position: relative;
 }
 
+section:nth-of-type(1)::after {
+  content: "";
+  display: block;
+  left: 5%;
+  top: 10%;
+  background-color: #6e00ff;
+  position: absolute;
+  width: 100vw;
+  height: 90%;
+  border-radius: 110px 0 0 110px;
+  z-index: -1;
+}
+
 section:nth-of-type(1) ol {
   justify-content: space-between;
   width: 89.21%;
@@ -195,12 +208,9 @@ section:nth-of-type(1) ol li a {
 }
 
 .overBox01 {
-  background-color: #6e00ff;
-  border-radius: 110px 0 0 110px;
   margin-left: auto;
   padding: 120px 0 70px 125px;
   box-sizing: border-box;
-  position: relative;
 }
 
 .overBox01 dt {
@@ -224,7 +234,7 @@ section:nth-of-type(1) ol li a {
   height: 63px;
   position: absolute;
   top: 100%;
-  left: 5%;
+  left: 10%;
   background: url("../images/arroy01.png") no-repeat center / contain;
 }
 
@@ -759,10 +769,6 @@ footer div h1 {
     max-width: 330px;
   }
 
-  .overBox01 {
-    width: 85vw;
-  }
-
   .overBox01 dd {
     margin-left: 60%;
   }
@@ -1147,6 +1153,10 @@ footer div h1 {
 
   header ul li:nth-child(1) {
     margin-bottom: 35px;
+  }
+
+  section:nth-of-type(1)::after {
+    left: 10%;
   }
 
   .overBox01 {
