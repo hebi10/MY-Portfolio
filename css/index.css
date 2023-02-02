@@ -330,14 +330,26 @@ section:nth-of-type(2) ul .card p:not(:nth-last-child(1)) {
 }
 
 .overBox02 {
-  width: 85vw;
-  background-color: white;
-  border-radius: 110px 0 0 110px;
-  margin-left: auto;
   padding: 120px 0 70px 12vw;
   box-sizing: border-box;
   position: relative;
+}
+
+.overBox02::after {
+  content: "";
+  width: 100vw;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 5%;
   box-shadow: 0 0 6px rgba(31, 0, 72, 0.3);
+  z-index: -1;
+  border-radius: 110px 0 0 110px;
+}
+
+.overBox02 > div {
+  padding: 0;
 }
 
 .overBox02 h2 {
@@ -602,19 +614,31 @@ section:nth-of-type(5) a {
 }
 
 section:nth-of-type(6) {
-  width: 85vw;
-  background-color: white;
-  box-shadow: 0 0 6px rgba(31, 0, 72, 0.3);
-  border-radius: 0 67px 67px 0;
   box-sizing: border-box;
   padding: 83px 0 0 0;
   transform: translateY(110px);
+  position: relative;
+}
+
+section:nth-of-type(6)::after {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0 0 6px rgba(31, 0, 72, 0.3);
+  border-radius: 0 67px 67px 0;
+  top: 0;
+  right: 8%;
+  z-index: 1;
 }
 
 section:nth-of-type(6) div {
   max-width: 90%;
   width: 100%;
   margin-left: auto;
+  position: relative;
+  z-index: 2;
 }
 
 section:nth-of-type(6) h2 {
