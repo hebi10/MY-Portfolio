@@ -1200,7 +1200,8 @@ footer div h1 {
   }
 
   section:nth-of-type(1) ol {
-    width: 270px;
+    max-width: 340px;
+    width: 80%;
     top: 0;
     left: 7%;
   }
