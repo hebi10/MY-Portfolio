@@ -999,10 +999,6 @@ footer div h1 {
     width: 60%;
   }
 
-  section:nth-of-type(2) ul {
-    /* justify-content: flex-end; */
-  }
-
   section:nth-of-type(2) ul .card {
     width: 48%;
     max-width: 600px;
