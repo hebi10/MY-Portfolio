@@ -242,6 +242,10 @@ section:nth-of-type(2) {
   padding-bottom: 100px;
 }
 
+section:nth-of-type(2) ul li > div {
+  height: 100%;
+}
+
 .infoBox {
   margin-bottom: 80px;
 }
@@ -634,8 +638,6 @@ section:nth-of-type(6)::after {
 }
 
 section:nth-of-type(6) div {
-  max-width: 90%;
-  width: 100%;
   margin-left: auto;
   position: relative;
   z-index: 2;
@@ -975,6 +977,10 @@ footer div h1 {
     margin-bottom: 24px;
   }
 
+  section:nth-of-type(1)::after {
+    left: 10%;
+  }
+
   .overBox01 dt {
     width: 55%;
     margin: 0 60px 0 auto;
@@ -994,11 +1000,11 @@ footer div h1 {
   }
 
   section:nth-of-type(2) ul {
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
   }
 
   section:nth-of-type(2) ul .card {
-    width: 100%;
+    width: 48%;
     max-width: 600px;
   }
 
@@ -1041,7 +1047,7 @@ footer div h1 {
     display: block;
     position: absolute;
     left: 50%;
-    top: 85%;
+    top: 120%;
     transform: translateX(-50%);
     width: 90%;
   }
@@ -1065,6 +1071,18 @@ footer div h1 {
   }
 }
 /* 태블릿 Fin */
+
+/* 포트폴리오 박스 정렬 */
+@media screen and (min-width: 786px) and (max-width: 900px) {
+  section:nth-of-type(2) ul {
+    justify-content: flex-end;
+  }
+
+  section:nth-of-type(2) ul .card {
+    width: 100%;
+  }
+}
+/* 포트폴리오 박스 정렬 Fin */
 
 /* 모바일 */
 @media screen and (max-width: 785px) {
